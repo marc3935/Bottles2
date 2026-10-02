@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Bottles2/Bottles2.csproj" />
+  <Project Path="BottleUnitTest2/BottleUnitTest2.csproj" />
+</Solution>
