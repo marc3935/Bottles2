@@ -16,6 +16,13 @@
                 AddBottle(new Bottle { Name = "Sprite", Volume = 500.0 });
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="nameStartsWith"></param>
+        /// <param name="minVolume"></param>
+        /// <param name="sortOrder"></param>
+        /// <returns></returns>
         public IEnumerable<Bottle> GetBottles(string? nameStartsWith = null,
                     double? minVolume = null,
                     string? sortOrder = null)
