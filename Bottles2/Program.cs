@@ -9,10 +9,10 @@ builder.Services.AddCors(options =>
         {
             policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
         });
-    });
+    }); 
 // Add services to the container.
 
-builder.Services.AddSingleton<IBottleRepository>(new BottleRepositoryList(includeTestData: true));
+builder.Services.AddSingleton<IBottleRepository>(new BottleRepositoryList(includeTestData: true));  
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
